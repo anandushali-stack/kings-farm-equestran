@@ -6303,7 +6303,7 @@ p:last-child{ margin-bottom: 0; }
 h1,h2,h3,h4,h5,h6{ text-wrap: balance; }
 
 /* Consistent spacing scale (4/8px) for interactive elements + comfortable hit targets */
-.btn-default{ padding: 16px 32px; min-height: 48px; }
+.btn-default{ padding: 16px 55px 16px 30px; min-height: 48px; }
 .form-control{ padding: 14px 18px; line-height: 1.5; min-height: 48px; border-radius: 10px; }
 textarea.form-control{ min-height: 132px; }
 .form-group{ margin-bottom: 20px; }

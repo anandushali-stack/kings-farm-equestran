@@ -681,7 +681,7 @@ header.main-header .container{
 
 .main-menu ul li.submenu > a:after{
 	content: '\f107';
-	font-family: 'FontAwesome';
+	font-family: "Font Awesome 6 Free";
 	font-weight: 900;
 	font-size: 14px;
 	margin-left: 8px;
@@ -853,7 +853,7 @@ header.main-header .container{
 
 .slicknav_arrow:after{
 	content: '\f107';
-	font-family: 'FontAwesome';
+	font-family: "Font Awesome 6 Free";
 	font-weight: 900;
 	font-size: 12px;
 	margin-left: 8px;
@@ -2320,7 +2320,8 @@ header.main-header .container{
 .testimonial-slider .testimonial-button-next::before,
 .testimonial-slider .testimonial-button-prev::before{
     content: '\f061';
-	font-family: 'FontAwesome';
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
 	position: absolute;
     top: 0;
     bottom: 0;
@@ -4262,7 +4263,8 @@ header.main-header .container{
 
 .video-gallery-image a::after{
     content: '\f04b';
-	font-family: 'FontAwesome';
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
     position: absolute;
     top: 50%;
     left: 50%;

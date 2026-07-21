@@ -10,7 +10,9 @@
 .fa-angle-right:before{content:"\f105"}
 .fa-arrow-left:before{content:"\f060"}
 .fa-arrow-right:before{content:"\f061"}
+.fa-bars:before{content:"\f0c9"}
 .fa-cake-candles:before{content:"\f1fd"}
+.fa-chevron-down:before{content:"\f078"}
 .fa-child:before{content:"\f1ae"}
 .fa-clock:before{content:"\f017"}
 .fa-comments:before{content:"\f086"}
@@ -20,6 +22,7 @@
 .fa-horse:before{content:"\f6f0"}
 .fa-medal:before{content:"\f5a2"}
 .fa-paw:before{content:"\f1b0"}
+.fa-phone:before{content:"\f095"}
 .fa-plus:before{content:"\2b"}
 .fa-route:before{content:"\f4d7"}
 .fa-shield-halved:before{content:"\f3ed"}
@@ -35,4 +38,5 @@
 .fa-linkedin-in:before{content:"\f0e1"}
 .fa-pinterest-p:before{content:"\f231"}
 .fa-x-twitter:before{content:"\e61b"}
+.fa-xmark:before{content:"\f00d"}
 .fa-youtube:before{content:"\f167"}

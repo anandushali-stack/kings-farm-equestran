@@ -375,6 +375,13 @@
       try { console.warn(e); } catch (_) {}
     }
   };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', window.RideupSPA.run);
+  } else {
+    window.RideupSPA.run();
+  }
+  document.addEventListener('kf:pageload', window.RideupSPA.run);
 })();
 
 

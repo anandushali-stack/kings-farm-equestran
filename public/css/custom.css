@@ -6139,12 +6139,12 @@ header.main-header .container{
 /************************************/
 /***        KF Mobile Menu        ***/
 /************************************/
-.kfm-burger{display:none;align-items:center;justify-content:center;width:46px;height:46px;background:transparent;border:1px solid rgba(6,22,25,.15);border-radius:10px;color:var(--primary-color);font-size:20px;cursor:pointer;line-height:1}
+.kfm-burger{-webkit-appearance:none;appearance:none;-webkit-touch-callout:none;display:none;align-items:center;justify-content:center;width:46px;height:46px;background:transparent;border:1px solid rgba(6,22,25,.15);border-radius:10px;color:var(--primary-color);font-size:20px;cursor:pointer;line-height:1;flex-shrink:0}
 .kfm-overlay{position:fixed;inset:0;z-index:2000;background:var(--primary-color);color:#fff;display:flex;flex-direction:column;padding:0;opacity:0;visibility:hidden;transform:translateX(8%);transition:opacity .35s ease,transform .35s ease,visibility .35s}
 .kfm-overlay.kfm-open{opacity:1;visibility:visible;transform:translateX(0)}
 .kfm-top{display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid rgba(255,255,255,.12)}
 .kfm-top img{height:56px;width:auto}
-.kfm-close{background:transparent;border:1px solid rgba(255,255,255,.25);border-radius:50%;width:42px;height:42px;color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .25s}
+.kfm-close{-webkit-appearance:none;appearance:none;background:transparent;border:1px solid rgba(255,255,255,.25);border-radius:50%;width:42px;height:42px;color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .25s;flex-shrink:0}
 .kfm-close:hover{background:rgba(255,255,255,.12)}
 .kfm-body{flex:1;overflow-y:auto;padding:14px 22px 28px;display:flex;flex-direction:column}
 .kfm-links{list-style:none;margin:0;padding:0}
@@ -6152,7 +6152,7 @@ header.main-header .container{
 .kfm-links > li > .kfm-row{display:flex;align-items:center}
 .kfm-links a{display:block;flex:1;padding:15px 2px;color:#fff;font-family:var(--accent-font);font-size:20px;font-weight:500;text-decoration:none;transition:color .25s,padding-left .25s}
 .kfm-links a:hover,.kfm-links a.kfm-active{color:var(--accent-secondary-color);padding-left:6px}
-.kfm-subtoggle{width:44px;height:44px;background:transparent;border:0;color:rgba(255,255,255,.7);font-size:14px;cursor:pointer;transition:transform .3s}
+.kfm-subtoggle{-webkit-appearance:none;appearance:none;width:44px;height:44px;background:transparent;border:0;color:rgba(255,255,255,.7);font-size:14px;cursor:pointer;transition:transform .3s;flex-shrink:0}
 .kfm-subtoggle[aria-expanded="true"]{transform:rotate(180deg);color:var(--accent-secondary-color)}
 .kfm-sub{list-style:none;margin:0;padding:0 0 10px 14px;display:none}
 .kfm-sub.kfm-open{display:block}
